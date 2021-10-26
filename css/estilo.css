@@ -19,9 +19,9 @@ section{
 
 aside{
     float: left;
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
     width: 18%;
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
     background: rgb(61, 240, 240);
     height: 100%;
 }
@@ -42,4 +42,64 @@ figure{
     float: left;
     margin: 0 auto;
     padding: 15px 15px;
+}
+
+ul.superior{
+    width: 100%;
+    background: #ffffff;
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+ul.superior li{
+    display: inline-block;
+}
+
+ul.superior li a{
+    color: #1d9599;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.superior li a:hover{
+    background: #125d5f;
+    color: #fff;
+}
+
+ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.inferior{
+    width: 100%;
+    background: #ffffff;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+}
+
+ul.inferior li a{
+    color: #1d9599;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+}
+ul.inferior li a:hover{
+    background: #125d5f;
+    color: whitesmoke;
+    width: 100%;
 }
