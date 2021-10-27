@@ -14,7 +14,7 @@ section{
     float: left;
     overflow:  auto;
     padding-bottom: 30px;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 aside{
@@ -45,20 +45,44 @@ figure{
 }
 /* Imagen del banner*/
 .banner{
-    width: 98%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     background-image: url(img/banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 /* Fin imagen del banner*/
+
+/* Imagen del inicio*/
+.card{      /* Primer iv del section del inicio*/
+    width: 90%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+.crucero{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/crucero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cardInside{ /* Segundo div del section del inicio*/
+    padding: 15px;
+}
+
+
+/* Imagen del inicio*/
 
 /* Menu superior o barra de navegación */
 
 .botSuperior{
-    width: 220px;
+    width: 24%;
     height: 100%;
     background: #ffffff;
     color: white;
@@ -67,16 +91,17 @@ figure{
     cursor: pointer;
     list-style: none;
     text-align: center;
-    margin-top: 1px;
+    margin-top:auto;
+
 }
 
 .botSuperior a{
     color: #1d9599;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 20px;
 }
 
 
@@ -102,7 +127,7 @@ figure{
 .botInferior a{
     color: white;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     display: inline-block;
     padding: 10px 20px;
@@ -128,12 +153,34 @@ h3.Menu{
 /* Fin menu lateral*/
 
 /*Tablas*/
+.tabla{ /* Primer div del section en tablas*/
+    width: 90%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paisaje2{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/crucero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tablaInside{
+    padding: 15px;
+}
+
 table, th, td {
     width: 100%;
     border-top-color: black;
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
+
 }
 td, th {
     padding: 10px;
