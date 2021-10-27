@@ -126,3 +126,17 @@ h3.Menu{
     background-color: rgb(197, 197, 197);
 }
 /* Fin menu lateral*/
+
+/*Tablas*/
+table, th, td {
+    width: 100%;
+    border-top-color: black;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+/*Fin tablas*/
