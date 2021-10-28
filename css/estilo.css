@@ -23,7 +23,7 @@ aside{
     width: 20%;
     border: 0px solid rgb(0, 0, 0);
     background: rgb(245, 245, 245);
-    height: 100%;
+    height: 200%;
 }
 
 footer{
@@ -87,11 +87,10 @@ figure{
     background: #ffffff;
     color: white;
     border: 0px;
-    padding: 0px;
+    padding: 1px;
     cursor: pointer;
-    list-style: none;
     text-align: center;
-    margin-top:auto;
+    margin-top: 10px;
 
 }
 
@@ -106,10 +105,11 @@ figure{
 
 
 .botSuperior a:hover{
-    background: #125d5f;
-    color: #fff;
+    background: #1d9599;
+    color: white;
     width: 100%;
 }
+
 /* Fin Menu superior */
 
 /* Menu lateral*/
@@ -148,7 +148,7 @@ h3.Menu{
     font-size: 20px;
     font-weight: bold;
     padding: 10px 0px;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(245, 245, 245);
 }
 /* Fin menu lateral*/
 
@@ -187,3 +187,82 @@ td, th {
     text-align: left;
 }
 /*Fin tablas*/
+
+/* Inicio video*/
+.video{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.vid{
+    width: 1020px;
+    height: 473px;
+    padding: 15px;
+}
+
+/* Fin video*/
+
+/* Inicio Formulario */
+.formul{
+    width: 55%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label{
+    font-size: 20px;
+    display: block;
+    width: 100%;
+}
+
+input{
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+input.focus{
+    border: 0px solid #4591e9;
+}
+
+input[type="submit"]{
+    background-color: #1d9599;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    background-color: #125d5f;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

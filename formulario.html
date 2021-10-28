@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+    <title>
+      Formulario
+    </title> 
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <!--Cabecera de la pagina -->
+    <header>
+      <!-- Barra de navegación superior -->
+      <ul class="superior"> 
+        <button class="botSuperior"> <a href="index.html"> INICIO </a></button>
+        <button class="botSuperior"> <a href="tablas.html"> TABLAS </a></button>
+        <button class="botSuperior"> <a href="video.html"> VIDEO </a></button>
+        <button class="botSuperior"> <a href="formulario.html"> FORMULARIO </a></button>
+      </ul>
+      <!-- Imagen de bienvenida -->
+      <h1>
+          <img class="banner" src="media/paisaje.jpg" alt="Logo de la empresa" width ="1300">
+      </h1>
+      <h1>
+          Bienvenido
+      </h1>
+      <h2>
+          UNIDAD 2-Desarrollo de página web personal con HTML, CSS, javascript y framework
+      </h2>
+    </header>
+
+    <!--Contenido central -->
+    <section>
+        <h2 class="titulo">FORMULARIO DE REGISTRO</h2>
+        <div class="formul">
+            <form name="formulario">
+                <label for="nombre"> Nombre: </label>
+                <input type="text" name="nombre" placeholder="Nombre" class="name">
+                <label for="direccion"> Dirección: </label>
+                <input type="text" name="direccion" placeholder="Direccion" class="direction">
+                <label for="telefono"> Telefono: </label>
+                <input type="text" name="telefono" placeholder="Telefono" class="phone">
+                <label for="correo"> Correo: </label>
+                <input type="text" name="correo" placeholder="Correo" class="email">
+                <label for="ciudad"> Ciudad: </label>
+                <input type="text" name="ciudad" placeholder="Ciudad" class="country">
+                <label for="edad"> Edad: </label>
+                <input type="text" name="edad" placeholder="Edad" class="age">
+                
+                <input type="submit" value="Enviar" id="btn" class="btnEnviar">
+            </form>
+        </div> 
+    </section>
+    
+    <script src="js/validacion.js"></script>
+    <!--Contenedor de menú de opciones -->
+    <aside> 
+      <h3 class="Menu"> MENÚ </h3>
+        <button class="botInferior"> <a href="index.html"> INICIO </a> </button>
+        <button class="botInferior"> <a href="tablas.html"> TABLAS </a> </button>
+        <button class="botInferior"> <a href="video.html"> VIDEO </a> </button>
+        <button class="botInferior"> <a href="formulario.html"> FORMULARIO </a> </button>
+    </aside>
+
+    <!--Pie de página -->
+    <footer>
+      <a href="http://www.facebook.com/davidalejandro.ciroortiz" target="_blank">
+        <img src="media/facebook-logo.png" alt="Facebook" width="40" height="40">
+      </a>
+      <a href="http://www.instagram.com/ciro_david33" target="_blank"> 
+        <img src="media/instagram-logo.png" alt="Instagram" width="40" height="40">
+      </a>
+      <a href="https://github.com/Davidciro-333" target="_blank">
+        <img src="media/github-logo.png" alt="Github" width="40" height="40">    
+      </a>
+      <p> &copy; David Alejandro Ciro Ortiz </p>
+    </footer>
+  </body>
+</html>
